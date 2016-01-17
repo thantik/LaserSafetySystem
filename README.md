@@ -20,3 +20,21 @@ Three types of alarm tones are available, a slow beep, a fast beep, and a contin
 ***
 ####Visual Indicators
 There are 3 LED outputs that at a glance indicate the overall health of the laser system. Red is for a critical shutdown error, yellow is for a problem that does not require immediate shutdown, and green indicates all is well with the system.
+***
+####Automatic Laser Shutdown
+Can configure any event to disable the Laser
+***
+##Arduino Pin Assignments
+####These pin assignments are based on the Arduino Nano board
+  1. D5 - Main door interlock
+  2. D6 - Control door interlock
+  3. D7 - Laser tube door interlock
+  4. D8 - Coolant flow meter input
+  5. D9 - Red LED
+  6. D10 - Yellow LED
+  7. D11 - Green LED
+  8. D12 - Alarm buzzer
+  9. A3 - Coolant temperature input
+  10. A4 - Laser tube temperature input
+
+***
