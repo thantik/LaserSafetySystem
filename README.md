@@ -25,7 +25,7 @@ There are 3 LED outputs that at a glance indicate the overall health of the lase
 Can configure any event to disable the Laser
 ***
 ##Arduino Pin Assignments
-####These pin assignments are based on the Arduino Nano board
+####These pin assignments are based on the Arduino Uno board
   1. D5 - Main door interlock
   2. D6 - Control door interlock
   3. D7 - Laser tube door interlock
@@ -39,7 +39,7 @@ Can configure any event to disable the Laser
 
 ***
 ####Required Hardware
-  1. Arduino Nano board
+  1. Arduino Uno board
   2. Microswitch for each door interlock
   3. TMP36 temperature sensor for each temperature monitoring event
   4. 5V relay
