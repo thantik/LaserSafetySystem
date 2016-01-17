@@ -38,3 +38,10 @@ Can configure any event to disable the Laser
   10. A4 - Laser tube temperature input
 
 ***
+####Required Hardware
+  1. Arduino Nano board
+  2. Microswitch for each door interlock
+  3. TMP36 temperature sensor for each temperature monitoring event
+  4. 5V relay
+
+***
