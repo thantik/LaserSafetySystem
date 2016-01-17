@@ -4,7 +4,7 @@ A laser cutter/engraver safety monitoring system for K40 and similair laser syst
 ##Features
 
 ####Configuration File
-Configuration of the system is accomplished through editing a simple text file.
+Configuration of the system is accomplished by editing a simple text file.
 ***
 ####Door interlocks
 Three door interlock inputs for the main work area door, controls and power supplly door, and the laser tube compartment door. It is configurable to use only the interlocks you want. (Main work area interlock is mandatory.)
