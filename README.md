@@ -3,20 +3,17 @@ A low cost laser cutter/engraver safety monitoring system for K40 and similair l
 
 ##Features
 
-####Configuration File
-Configuration of the system is accomplished by editing a simple text file.
-***
-####Door interlock events
+####Door interlock event
 Door interlock input for the main work area door.
 ***
-####Temperature monitoring events
+####Temperature monitoring event
 Input for monitoring coolant temperature.
 ***
 ####Coolant flow monitoring events
-One input to monitor coolant flow using low cost flow sensor.
+Input to monitor coolant flow using low cost flow sensor.
 ***
 ####Audible Alarm
-Three types of alarm tones are available, a slow beep, a fast beep, and a continuous tone. Events can be assigned one of the three tones.
+Critical event sets off buzzer with continuous tone.
 ***
 ####Visual Indicators
 There are 2 LED outputs that at a glance indicate the overall health of the laser system. Red is for a critical shutdown error and green indicates all is well with the system.
