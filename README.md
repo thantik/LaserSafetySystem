@@ -20,13 +20,13 @@ Critical event sets off buzzer with continuous tone.
 Critical event disables the Laser
 ***
 ##Arduino Pin Assignments
-####These pin assignments are based on the Arduino Uno board
-  1. D2 - Flow senso input
+####These pin assignments are based on the Arduino Nano board
+  
+  1. D2 - Flow sensor input
   2. D3 - Door microswitch input
   3. D4 - Buzzer alarm output
   4. D5 - Relay trigger pin to disable laser
-  5. D9 - Red LED
-  6. A0 - Coolant temperature sensor input
+  5. A0 - Coolant temperature sensor input
 
 ***
 ####Required Hardware
