@@ -7,10 +7,10 @@ A low cost laser cutter/engraver safety monitoring system for K40 and similair l
 Configuration of the system is accomplished by editing a simple text file.
 ***
 ####Door interlock events
-Three door interlock inputs for the main work area door, controls and power supply door, and the laser tube compartment door. It is configurable to use only the interlocks you want. (Main work area interlock is mandatory.)
+Door interlock input for the main work area door.
 ***
 ####Temperature monitoring events
-Two inputs for monitoring coolant temperature and laser tube temperature. These inputs are configurable. (Coolant temperature moniotoring is mandatory, laser tube temperature is optional.)
+Input for monitoring coolant temperature.
 ***
 ####Coolant flow monitoring events
 One input to monitor coolant flow using low cost flow sensor.
@@ -19,10 +19,10 @@ One input to monitor coolant flow using low cost flow sensor.
 Three types of alarm tones are available, a slow beep, a fast beep, and a continuous tone. Events can be assigned one of the three tones.
 ***
 ####Visual Indicators
-There are 3 LED outputs that at a glance indicate the overall health of the laser system. Red is for a critical shutdown error, yellow is for a problem that does not require immediate shutdown, and green indicates all is well with the system.
+There are 2 LED outputs that at a glance indicate the overall health of the laser system. Red is for a critical shutdown error and green indicates all is well with the system.
 ***
 ####Automatic Laser Shutdown
-Can configure any event to disable the Laser
+Critical event disables the Laser
 ***
 ##Arduino Pin Assignments
 ####These pin assignments are based on the Arduino Uno board
