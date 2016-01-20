@@ -1,11 +1,19 @@
 /********************************
 K40 Co2 Laser safety interlock and monitor
+
+Author: Anthony Bolgar 
+Based upon the code by SignaGFX
+
 LCD is a common 20x4 lcd panel driven by an I2C board.
-Main Door Switch: placed between gnd and D3
-Tube coolant temp monitor: sensor output to A0
-Sensor: TMP36
-Coolant flow monitor: flow meter output to D2
-Alarm Buzzer: connect LED or Buzzer + to D4
+
+Pin Assignments for UNO board:
+D2 - Coolant flow monitor
+D3 - Door Switch 
+D4 - Warning buzzer or status LED
+D5 - Relay trigger to diasable laser fire
+A0 - Coolant temperature minitor (Sensor - TMP36) 
+
+
 You will need a small 5V relay to use as the interlock or you can try to invert the INTERLOCK states and trigger the safety on the power supply with the adruino itself.
 I havent tried that method yet but it may be simpler, good luck.
 ************************************/
@@ -476,7 +484,7 @@ void FlowSensor() //coolant flow animation
         lcd.print("[");
         lcd.setCursor(17,1);
         lcd.print("]");
-        if (pulses >12)
+        if (pulses >48)
         {
             pulses=0;
             lcd.setCursor(3,1);
@@ -484,13 +492,12 @@ void FlowSensor() //coolant flow animation
         }
         else
         {
-            lcd.setCursor((pulses) +3 ,1);
+            lcd.setCursor((pulses)/4 +3 ,1);
             lcd.print("->");
         }
     }
 }
-
-void TempSensor()  // Temp sensor loop
+void TempSensor()  //Temp sensor loop
 {
     int reading = analogRead(TempSensorPin);
     // converting that reading to voltage, for 3.3v arduino use 3.3
