@@ -7,7 +7,7 @@ A low cost laser cutter/engraver safety monitoring system for K40 and similair l
 Configuration of the system is accomplished by editing a simple text file.
 ***
 ####Door interlock events
-Three door interlock inputs for the main work area door, controls and power supplly door, and the laser tube compartment door. It is configurable to use only the interlocks you want. (Main work area interlock is mandatory.)
+Three door interlock inputs for the main work area door, controls and power supply door, and the laser tube compartment door. It is configurable to use only the interlocks you want. (Main work area interlock is mandatory.)
 ***
 ####Temperature monitoring events
 Two inputs for monitoring coolant temperature and laser tube temperature. These inputs are configurable. (Coolant temperature moniotoring is mandatory, laser tube temperature is optional.)
