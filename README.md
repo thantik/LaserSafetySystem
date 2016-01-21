@@ -30,12 +30,15 @@ Critical event disables the Laser
 
 ***
 ####Required Hardware
-  1. Arduino Nano 
-  2. Microswitch for door interlock
+
+The links are just examples of the required items, you may be able to get them cheaper on web sites other than ebay.
+
+  1. Arduino Nano http://www.ebay.ca/itm/USB-Nano-V3-0-ATmega328-CH340G-5V-16M-Micro-controller-board-For-Arduino-/381523742462?hash=item58d4964efe:g:5pwAAOSwy4hUTv2u
+  2. Microswitch for door interlock http://www.ebay.ca/itm/1-Pcs-Micro-Switch-Spdt-Hinge-Roller-Lever-15A-V-156-1C25-/181985068688?hash=item2a5f27c690:g:xYAAAOSw5dNWj3eU
   3. TMP36 temperature sensor for coolant temperature monitoringhttp://www.ebay.ca/itm/2pcs-TMP36GT9Z-TMP36GT9-ORIGINAL-Low-Voltage-Temperature-Sensors-NEW-/171906967235?hash=item28067426c3
-  4. 5V relay to disable laser firing
-  5. I2C 2004 LCD display
-  6. Flow sensor
+  4. 5V relay to disable laser firing http://www.ebay.ca/itm/Effective-Stable-1-Channel-5V-Indicator-Light-LED-Relay-Module-For-Arduino-SCW-/231718093803?hash=item35f37983eb:g:okkAAOSwT5tWGzNb
+  5. I2C 2004 LCD display http://www.ebay.ca/itm/New-Yellow-Serial-IIC-I2C-TWI-2004-20X4-Character-LCD-Module-Display-For-Arduino-/131551735668?hash=item1ea1182f74:g:OjMAAOxyUrZS0ARf
+  6. Flow sensor http://www.ebay.ca/itm/New-1-2-Water-Flow-Switch-Hall-Flow-Meter-Control-1-30L-min-Black-1pcs-/291411734936?hash=item43d97e3198:g:KAcAAOSwBLlVC6K3
 
 ***
 
