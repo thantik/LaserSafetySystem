@@ -37,3 +37,9 @@ Critical event disables the Laser
   5. I2C 2004 LCD display
 
 ***
+
+##Arduino Libraries
+
+Please use the arduino libraries in the libraries folder, as they are slightly modified from the origina ones. You will get compile errors if you do no use these ibraries
+
+***
