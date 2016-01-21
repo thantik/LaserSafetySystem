@@ -32,7 +32,7 @@ Critical event disables the Laser
 ####Required Hardware
   1. Arduino Nano 
   2. Microswitch for door interlock
-  3. TMP36 temperature sensor for coolant temperature monitoring
+  3. TMP36 temperature sensor for coolant temperature monitoringhttp://www.ebay.ca/itm/2pcs-TMP36GT9Z-TMP36GT9-ORIGINAL-Low-Voltage-Temperature-Sensors-NEW-/171906967235?hash=item28067426c3
   4. 5V relay to disable laser firing
   5. I2C 2004 LCD display
   6. Flow sensor
