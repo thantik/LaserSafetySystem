@@ -30,17 +30,18 @@ Critical event disables the Laser
 
 ***
 ####Required Hardware
-  1. Arduino Nano with expansion board
+  1. Arduino Nano 
   2. Microswitch for door interlock
   3. TMP36 temperature sensor for coolant temperature monitoring
   4. 5V relay to disable laser firing
   5. I2C 2004 LCD display
+  6. Flow sensor
 
 ***
 
 ##Arduino Libraries
 
-Please use the arduino libraries in the libraries folder, as they are slightly modified from the origina ones. You will get compile errors if you do no use these ibraries
+Please use the arduino libraries in the libraries folder, as they are slightly modified from the original ones. You will get compile errors if you do no use these ibraries
 
 ***
 
