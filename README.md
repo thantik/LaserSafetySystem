@@ -43,3 +43,9 @@ Critical event disables the Laser
 Please use the arduino libraries in the libraries folder, as they are slightly modified from the origina ones. You will get compile errors if you do no use these ibraries
 
 ***
+
+##Schematic
+
+Coming soon, however it should be pretty onvious how to connect it all up. :)
+
+***
