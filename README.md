@@ -34,5 +34,6 @@ Critical event disables the Laser
   2. Microswitch for door interlock
   3. TMP36 temperature sensor for coolant temperature monitoring
   4. 5V relay to disable laser firing
+  5. I2C 2004 LCD display
 
 ***
