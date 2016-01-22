@@ -5,14 +5,17 @@ Code by Anthony Bolgar based upon the code by SignaGFX
 
 LCD is a common 20x4 lcd panel driven by an I2C board.
 
-Pin Assignments for UNO board:
-D2 - Coolant flow monitor
-D3 - Door Switch 
-D4 - Warning buzzer or status LED
-D5 - Relay trigger to diasable laser fire
-A0 - Coolant temperature minitor (Sensor - TMP36) 
+Pin Assignments for Arduino Nano board:
 
-You will need a small 5V relay to disable the Laser on critical event
+D2 - Coolant flow monitor (flow meter output to D2)
+D3 - Door Switch (Hook up switch between ground and D3)
+     (You can add additional microswitches in series to protect the laser tube door and controls door)
+D4 - Warning buzzer or status LED (Buzzer+ to D4, buzzer- to ground)
+D5 - Relay trigger to diasable laser fire (+5V to relay VCC,D5 connects to Relay IN,
+     one side of laser enable to relay common, othe side of laser enable to relay NO)
+A0 - Coolant temperature monitor (Sensor - TMP36) (Pin1 to A0, Pin2 to +5V, Pin3 to ground)
+
+
 
 ************************************/
 #include <Wire.h>
