@@ -1,7 +1,7 @@
 /********************************
 Co2 Laser safety interlock and monitor
 
-Code by Anthony Bolgar based upon the code by SignaGFX
+Code by Anthony Bolgar based upon the code by SigmazGFX
 
 LCD is a common 20x4 lcd panel driven by an I2C board.
 
@@ -41,7 +41,7 @@ unsigned long duration; //used for flow meter timer to watch if the flow stops
 #define DOORSWITCH 3 //Connect safety interlock switch to this Digital pin other side to gnd(high=open - low=closed)
 
 int TempSensorPin = A0;
-//the analog pin the TMP36's Vout (sense) pin is connected to
+//the analog pin the TMP36's Vout (sense) pin is connected to A0
 //the resolution is 10 mV / degree centigrade with a
 //500 mV offset to allow for negative temperatures
 
@@ -464,7 +464,7 @@ void Interlock()
     }
     
     FlowSensor();    //loop that runs the coolant flow animation
-    TempSensor();    //loop that measures the TIP36 temp output.
+    TempSensor();    //loop that measures the TMP36 temp output.
 
     //this section shuts down the laser enable ... Switch Interlock Pin states to meet your needs. (i.e. High for relay activation, Low to gnd pin directly from arduino)
 
