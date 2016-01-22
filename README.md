@@ -22,11 +22,13 @@ Critical event disables the Laser
 ##Arduino Pin Assignments
 ####These pin assignments are based on the Arduino Nano board
   
-  1. D2 - Flow sensor input
-  2. D3 - Door microswitch input
-  3. D4 - Buzzer alarm output
-  4. D5 - Relay trigger pin to disable laser
-  5. A0 - Coolant temperature sensor input
+D2 - Coolant flow monitor (flow meter output{orange wire} to D2, red wire to +5V, black wire to ground))
+D3 - Door Switch (Hook up switch between ground and D3)
+     (You can add additional microswitches in series to protect the laser tube door and controls door)
+D4 - Warning buzzer or status LED (Buzzer+ to D4, buzzer- to ground)
+D5 - Relay trigger to diasable laser fire (+5V to relay VCC, D5 connects to Relay IN,
+     one side of laser enable to relay common, othe side of laser enable to relay NO)
+A0 - Coolant temperature monitor (Sensor - TMP36) (Pin1 to A0, Pin2 to +5V, Pin3 to ground)
 
 ***
 ####Required Hardware
