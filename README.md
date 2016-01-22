@@ -44,12 +44,12 @@ The links are just examples of the required items, you may be able to get them c
 
 ##Arduino Libraries
 
-Please use the arduino libraries in the libraries folder, as they are slightly modified from the original ones. You will get compile errors if you do no use these ibraries
+Please use the arduino libraries in the libraries folder, as they are slightly modified from the original ones. You will get compile errors if you do no use these libraries
 
 ***
 
 ##Schematic
 
-Coming soon, however it should be pretty onvious how to connect it all up. :)
+Coming soon, however it should be pretty obvious how to connect it all up. :)
 
 ***
